@@ -23,9 +23,12 @@ logging.level.org.markjay.loggingfilter.logging.DoogiesRequestLogger=TRACE
 
 ### Motivation
 
-https://stackoverflow.com/questions/33744875/spring-boot-how-to-log-all-requests-and-responses-with-exceptions-in-single-pl
+After reading [this](https://stackoverflow.com/questions/33744875/spring-boot-how-to-log-all-requests-and-responses-with-exceptions-in-single-pl)
+question and answers on stackoverflow I couldn't find a working solution that prints request and response in json format for graylog consumption.
 
-https://github.com/zalando/logbook/issues/94
+ - actuator: didn't like the idea of unintentional exposure of sensitive information and the limit of requests it remembers  
+ - CommonsRequestLoggingFilter: only logs requests
+ - zalando's logbook: unfortunatelly could not make it work with @RequestParam because of [this](https://github.com/zalando/logbook/issues/94)
 
 ### Output examples
 
