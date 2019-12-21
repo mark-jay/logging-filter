@@ -25,7 +25,7 @@ After reading [this](https://stackoverflow.com/questions/33744875/spring-boot-ho
 question and answers on stackoverflow I couldn't find a working solution that prints request and response in json format for graylog consumption.
 
  - actuator: didn't like the idea of unintentional exposure of sensitive information and the limit of requests it remembers  
- - CommonsRequestLoggingFilter: only logs requests
+ - CommonsRequestLoggingFilter: that way only requests are logged
  - zalando's logbook: unfortunatelly could not make it work with @RequestParam because of [this](https://github.com/zalando/logbook/issues/94)
 
 ### Output examples
