@@ -1,6 +1,6 @@
 ### Overview
 
-https://github.com/mark-jay/logging-filter/workflows/JavaCI/badge.svg
+![](https://github.com/mark-jay/logging-filter/workflows/JavaCI/badge.svg)
 
 This is a simple spring module that was based on the following answer:
 
