@@ -2,9 +2,7 @@
 
 ![](https://github.com/mark-jay/logging-filter/workflows/JavaCI/badge.svg)
 
-This is a simple spring module that was based on the following answer:
-
-https://stackoverflow.com/a/42023374
+This is a simple spring module that provides server rest-api logging capabilities and was based on the [following](https://stackoverflow.com/a/42023374) answer.
 
 This module is not supposed to be included as a maven dependency, but rather a copy-pastable single java-source file.(class [DoogiesRequestLogger](src/main/java/org/markjay/loggingfilter/logging/DoogiesRequestLogger.java))
 
