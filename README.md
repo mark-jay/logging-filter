@@ -14,7 +14,7 @@ If logging level set to trace, then a ready-to-use curl command is generated and
 
 Copy and paste [DoogiesRequestLogger](src/main/java/org/markjay/loggingfilter/logging/DoogiesRequestLogger.java) class in your project and configure it there
 
-If needed set logging level in application.properties
+Set logging level in application.properties if needed 
 ```
 logging.level.org.markjay.loggingfilter.logging.DoogiesRequestLogger=TRACE
 ```
