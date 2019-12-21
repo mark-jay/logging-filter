@@ -8,7 +8,7 @@ This module is not supposed to be included as a maven dependency, but rather a c
 
 This module is a servlet filter that logs input and output as well as elapsed time in json format.
 Authorization based headers are filtered.
-If logging level set to trace a ready-to-use curl command is generated and logged with non-filtered headers.
+If logging level set to trace, then a ready-to-use curl command is generated and logged with non-filtered headers.
 
 ### Installation and configuration
 
