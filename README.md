@@ -6,7 +6,7 @@ This is a simple spring module that was based on the following answer:
 
 https://stackoverflow.com/a/42023374
 
-This module is not supposed to be included as a maven dependency, but rather a copy-pastable single java-source file.(class DoogiesRequestLogger)
+This module is not supposed to be included as a maven dependency, but rather a copy-pastable single java-source file.(class [DoogiesRequestLogger](src/main/java/org/markjay/loggingfilter/logging/DoogiesRequestLogger.java))
 
 This module is a servlet filter that logs input and output as well as elapsed time in json format.
 Authorization based headers are filtered.
