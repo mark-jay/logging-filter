@@ -22,6 +22,7 @@ logging.level.org.markjay.loggingfilter.logging.DoogiesRequestLogger=TRACE
 ### Motivation
 
 https://stackoverflow.com/questions/33744875/spring-boot-how-to-log-all-requests-and-responses-with-exceptions-in-single-pl
+
 https://github.com/zalando/logbook/issues/94
 
 ### Output examples
